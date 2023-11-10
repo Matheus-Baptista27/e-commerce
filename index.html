@@ -47,7 +47,7 @@
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Masculino</a></li>
                   <li><a class="dropdown-item" href="#">Feminino</a></li>
-                  <li><hr class="dropdown-divider">s</li>
+                  <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Acessórios</a></li>
                 </ul>
               </li>
@@ -62,12 +62,108 @@
           </div>
         </div>
       </nav>
-      
+    <!--Slider -->  
+    <div class="container" id="slider-container">
+      <div class="carousel slide" id="slider" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+          type="button"
+          class="active"
+          data-bs-target="#slider"
+          data-bs-slide-to="0"
+          aria-current="true"
+          aria-labal="Slide 1"
+          ></button>
+          <button
+          type="button"
+          data-bs-target="#slider"
+          data-bs-slide-to="1"
+          aria-labal="Slide 2"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="IMG/Minibanner-Capa.jpg" alt="baner 1" class="d-block w-100">
+            <div class="carousel-caption">
+              <h5>Nova Capinha</h5>
+              <a href="#" class="btn btn-dark">Compre agora</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-inner">
+              <img src="IMG/Minibanner-Album.jpg" alt="baner 2" class="d-block w-100">
+              <div class="carousel-caption">
+                <h5>Album de Figurinhas</h5>
+                <a href="#" class="btn btn-dark">Compre agora</a>
+              </div>
+            </div>
+          </div> 
+        </div>
+        <button 
+        class="carousel-control-prev" 
+        type="button" 
+        data-bs-target="#slider" 
+        data-bs-slide="prev"
+      >
+        <i class="bi bi-chevron-compact-left"></i>
+        <span class="visually-hidden"> Previous</span>
+      </button>
+      <button 
+        class="carousel-control-next" 
+        type="button" 
+        data-bs-target="#slider" 
+        data-bs-slide="next"
+      >
+        <i class="bi bi-chevron-compact-rigth"></i>
+        <span class="visually-hidden">Next</span>
+      </button>
+      </div> 
+    </div>  
+
     <!-- header -->
-    <header class="container">
-  </header>
+    <div class="col-12 col-md-10 offset-md-1" id="mini-banners">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <div class="card text-center">
+            <i class="bi bi-box primary-color"></i>
+            <div class="card-body">
+              <h5 class="card-title primary-color">Produto 1</h5>
+              <p class="card-text secondary-color">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <a href="#" class="btn btn-dark">Compre agora</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card text-center">
+            <i class="bi bi-box primary-color"></i>
+            <div class="card-body">
+              <h5 class="card-title primary-color">Produto 2</h5>
+              <p class="card-text secondary-color">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <a href="#" class="btn btn-dark">Compre agora</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-12 col-md-4">
+          <div class="card text-center">
+            <i class="bi bi-box primary-color"></i>
+            <div class="card-body">
+              <h5 class="card-title primary-color">Produto3</h5>
+              <p class="card-text secondary-color">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <a href="#" class="btn btn-dark">Compre agora</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!--Footer -->
-  <footer class="border-top fixed-bottom text-muted bg-ligth">
+    <!--<footer class="border-top fixed-bottom text-muted bg-ligth">
       <div class="container">
         <div class="row py-3">
           <div class="col-12 col-md-4 text-center text-md-left">
@@ -81,7 +177,7 @@
           </div>
        </div>
     </div>
-  </footer>
+  </footer>-->
     <!-- Optional JavaScript -->
     <!-- Popper.js first, then Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
